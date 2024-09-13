@@ -9,7 +9,7 @@
 [Model Overview](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#4-model-overview)
 
 
-[Results]()
+[Results](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#5-results)
 
 [Deployment]()
 
