@@ -11,7 +11,7 @@
 
 [Results](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#5-results)
 
-[Deployment]()
+[Deployment](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#6-deployment)
 
 
 ## 3. Dataset
