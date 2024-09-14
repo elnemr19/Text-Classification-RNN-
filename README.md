@@ -70,12 +70,15 @@ Key components include:
 My final accuracy is 96% in traning ,92% in testing.
 
 Accuracy:
+
 ![image](https://github.com/user-attachments/assets/15146026-48b6-432a-a0f6-6158286d5683)
 
 Loss:
+
 ![image](https://github.com/user-attachments/assets/4a68b02e-d9c6-494c-8f33-8af2e8964663)
 
 Confusion Matrix:
+
 ![image](https://github.com/user-attachments/assets/5e0e169b-3ec1-4b72-94e6-ce030f3febaa)
 
 ![image](https://github.com/user-attachments/assets/55f2174e-5e8e-4758-aae1-9b23921fdc52)
