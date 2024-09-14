@@ -35,7 +35,7 @@ In this phase I:
 
 -remove the punctuation and stopwords and convert text to lower.
 
--convert text into integer sequences by tokenizer, mapping each word to a unique index, and handles out-of-vocabulary words using a specified token (<OOV>).
+-convert text into integer sequences by tokenizer, mapping each word to a unique index, and handles out-of-vocabulary words using a specified token ('<OOV>').
 
 -pads or truncates these sequences to a fixed length, ensuring uniform input size for deep learning models.
 
