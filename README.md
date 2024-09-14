@@ -89,3 +89,4 @@ Confusion Matrix:
 I used gradio to make user interface
 
 
+![image](https://github.com/user-attachments/assets/4d2ae36b-f4e3-451d-a348-d863b6e952b9)
