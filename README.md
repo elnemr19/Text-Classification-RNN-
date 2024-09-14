@@ -40,6 +40,7 @@ In this phase I:
 -pads or truncates these sequences to a fixed length, ensuring uniform input size for deep learning models.
 
 -word embedding:
+
 I used **GloVe** (Global Vectors for Word Representation) :is a pre-trained word embedding model where each word is represented as a vector of real numbers, capturing semantic meanings and relationships between words.
 
 -I used LabelEncoder to encode the target (labels).
