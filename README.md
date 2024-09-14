@@ -10,6 +10,8 @@ We will use **Long Short-Term Memory (LSTM)** to train our model, as they have b
 ## 2. Table of Contents
 [Dataset](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#3-dataset)
 
+[Pre-processing]()
+
 [Model Overview](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#4-model-overview)
 
 
@@ -30,15 +32,21 @@ We will use **Long Short-Term Memory (LSTM)** to train our model, as they have b
 ## 4. Pre-processing
 
 In this phase I:
-remove the punctuation and stopwords and convert text to lower.
-convert text into integer sequences by tokenizer, mapping each word to a unique index, and handles out-of-vocabulary words using a specified token (<OOV>).
-pads or truncates these sequences to a fixed length, ensuring uniform input size for deep learning models.
-word embedding:
+
+-remove the punctuation and stopwords and convert text to lower.
+
+-convert text into integer sequences by tokenizer, mapping each word to a unique index, and handles out-of-vocabulary words using a specified token (<OOV>).
+
+-pads or truncates these sequences to a fixed length, ensuring uniform input size for deep learning models.
+
+-word embedding:
+
+I used **GloVe** (Global Vectors for Word Representation) :is a pre-trained word embedding model where each word is represented as a vector of real numbers, capturing semantic meanings and relationships between words.
 
 
-## 4. Model Overview
+## 5. Model Overview
 
 
-## 5. Results
+## 6. Results
 
-## 6. Deployment
+## 7. Deployment
