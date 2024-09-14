@@ -10,7 +10,7 @@ We will use **Long Short-Term Memory (LSTM)** to train our model, as they have b
 ## 2. Table of Contents
 [Dataset](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#3-dataset)
 
-[Pre-processing]()
+[Pre-processing](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#4-pre-processing)
 
 [Model Overview](https://github.com/elnemr19/Text-Classification-RNN-/blob/main/README.md#4-model-overview)
 
@@ -40,11 +40,24 @@ In this phase I:
 -pads or truncates these sequences to a fixed length, ensuring uniform input size for deep learning models.
 
 -word embedding:
-
 I used **GloVe** (Global Vectors for Word Representation) :is a pre-trained word embedding model where each word is represented as a vector of real numbers, capturing semantic meanings and relationships between words.
 
+-I used LabelEncoder to encode the target (labels).
+
+-Split my data into train and test by 80 - 20.
 
 ## 5. Model Overview
+This model is a **Bidirectional LSTM-based sequential neural network** for multi-class classification with an output layer using the softmax activation function.
+Key components include:
+
+**Embedding Layer**: Initialized with pre-trained GloVe embeddings (non-trainable) to represent words as dense vectors.
+**Bidirectional LSTMs**: Three stacked Bidirectional LSTM layers with 128, 64, and 32 units, respectively, to capture both forward and backward dependencies in the input sequences.
+**Dropout Layers**: Dropout layers after each LSTM and Dense layer to prevent overfitting.
+**Dense Layers**: Two fully connected layers—one with 64 units and ReLU activation, and the final layer with 5 units (softmax activation) for multi-class classification.
+**Loss Function**: Uses sparse_categorical_crossentropy for multi-class classification.
+**Optimizer**: Adam optimizer for efficient training.
+**Early Stopping**: Implemented to monitor validation loss, with a patience of 3 epochs to prevent overfitting and restore the best weights.
+
 
 
 ## 6. Results
