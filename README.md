@@ -1,6 +1,6 @@
 # Text-Classification-RNN-
 
-## 1. Project Description
+## 1. Project Description 
 
 The goal of this project is to develop a deep learning model that can accurately classify text into one of seven categories: **tech**, **business**, **sport**, **entertainment**, and **politics**.
 
