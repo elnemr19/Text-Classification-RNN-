@@ -51,15 +51,38 @@ This model is a **Bidirectional LSTM-based sequential neural network** for multi
 Key components include:
 
 **Embedding Layer**: Initialized with pre-trained GloVe embeddings (non-trainable) to represent words as dense vectors.
+
 **Bidirectional LSTMs**: Three stacked Bidirectional LSTM layers with 128, 64, and 32 units, respectively, to capture both forward and backward dependencies in the input sequences.
+
 **Dropout Layers**: Dropout layers after each LSTM and Dense layer to prevent overfitting.
+
 **Dense Layers**: Two fully connected layers—one with 64 units and ReLU activation, and the final layer with 5 units (softmax activation) for multi-class classification.
+
 **Loss Function**: Uses sparse_categorical_crossentropy for multi-class classification.
+
 **Optimizer**: Adam optimizer for efficient training.
+
 **Early Stopping**: Implemented to monitor validation loss, with a patience of 3 epochs to prevent overfitting and restore the best weights.
 
 
 
 ## 6. Results
+My final accuracy is 96% in traning ,92% in testing.
+
+Accuracy:
+![image](https://github.com/user-attachments/assets/15146026-48b6-432a-a0f6-6158286d5683)
+
+Loss:
+![image](https://github.com/user-attachments/assets/4a68b02e-d9c6-494c-8f33-8af2e8964663)
+
+Confusion Matrix:
+![image](https://github.com/user-attachments/assets/5e0e169b-3ec1-4b72-94e6-ce030f3febaa)
+
+![image](https://github.com/user-attachments/assets/55f2174e-5e8e-4758-aae1-9b23921fdc52)
+
 
 ## 7. Deployment
+
+I used gradio to make user interface
+
+
